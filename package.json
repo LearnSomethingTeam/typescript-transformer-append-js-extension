@@ -20,5 +20,6 @@
 	"scripts": {
 		"build": "tsc",
 		"test": "ttsc -p tests/tsconfig.json && echo Go look at tests/output/index.js to validate transformer did its job, because I'm too lazy to write a real test."
-	}
+	},
+	"packageManager": "yarn@3.1.1"
 }
